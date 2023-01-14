@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kompenen | Form</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <section class="container">
+            <header>
+                <img src="images/abc (2).png" alt="images">
+            </header>
+              <section class="content">
+                
+                <form action="login.php" method="get">
+
+                        <label for="" class="form-style">
+                            Nama Lengkap
+                            <input type="text" class="input" placeholder="Nama Lengkap">
+                        </label>
+
+                        <label for="" class="form-style">
+                            Telepon
+                            <input type="number" class="input" placeholder="Nomor Telepon">
+                        </label>
+
+                        <label for="" class="form-style">
+                            Email
+                            <input type="email" class="input" placeholder="Email">
+                        </label>
+
+                        <label for="" class="form-style">
+                            Password
+                            <input type="password" class="input" placeholder="Password">
+                        </label>
+
+                        <label for="" class="form-style">
+                            Alamat
+                            <textarea class="input"></textarea>
+                        </label>
+
+                        <fieldset class="form-style">
+                            <legend>Hobi</legend>
+                        <label>
+                            <input type="checkbox" value="Coding"> Coding
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Futsal"> Futsal
+                        </label>
+
+                        <label>
+                            <input type="checkbox" value="Game"> Game
+                        </label>
+                        
+                        <label>
+                            <input type="checkbox" value="Skate"> Skate
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="form-style">
+                        <legend>Pekerjaan</legend>
+                    <label>
+                        <input type="radio" value="Direktur" name="pekerjaan"> Direktur
+                    </label>
+
+                    <label>
+                        <input type="radio" value="Karyawan" name="pekerjaan"> Karyawan
+                    </label>
+
+                    <label>
+                        <input type="radio" value="HRD" name="pekerjaan"> HRD
+                    </label>
+                    
+                    <label>
+                        <input type="radio" value="OB" name="pekerjaan"> OB
+                    </label>
+                </fieldset>
+
+
+                <label for="" class="form-style">
+                    Ukuran Sepatu
+                    <select class="input">
+                        <option value="39">Ukuran 39</option>
+                        <option value="40">Ukuran 40</option>
+                        <option value="41">Ukuran 41</option>
+                        <option value="42">Ukuran 42</option>
+                    </select>
+                </label>
+
+                <label for="" class="form-style">
+                    Warna Favorit
+                    <input list="warna" class="input">
+                    <datalist id="warna">
+                        <option value="M">Merah
+                        <option value="K">Kuning
+                        <option value="H">Hijau
+                        <option value="B">Biru
+                    </datalist>
+                </label>
+
+                        <input type="submit" value="kirim">
+                </form>
+              </section>
+            <nav class="sidebar">
+                
+            <a href="index.html">Home</a>
+            <a href="form.html" class="active">Form</a> 
+            <a href="table.html">Table</a>
+            
+            </nav>
+            <footer>Footer</footer>
+        </section>
+    </body>
+</html>

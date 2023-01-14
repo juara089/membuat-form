@@ -1,0 +1,17 @@
+.articel {
+    border-bottom: 1px solid #dcdcdc;
+padding: 40px 20px;}
+
+
+.articel h3 {margin-top: 0px;}
+
+.articel p {margin-bottom: 0px;color: #484848;}
+
+.articel:last-child {
+    border-bottom: none;
+    padding-bottom:0px;
+}
+
+.articel:first-child {
+    padding-top:0px
+}
